@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/PGC layout/Mesh Gen/Level1.unity
-  isLoaded: 1
-  isActive: 1
