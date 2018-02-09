@@ -283,8 +283,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera_Follow.cs" />
+    <Compile Include="Assets\Scripts\FuelBar.cs" />
+    <Compile Include="Assets\Scripts\Player_Col.cs" />
     <Compile Include="Assets\Scripts\Player_Controls.cs" />
     <Compile Include="Assets\Scripts\Player_Move.cs" />
+    <Compile Include="Assets\Scripts\Rotate_Object.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
