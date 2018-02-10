@@ -1,0 +1,30 @@
+##Generic GDD
+
+Logo: Terrain Beginnings
+
+Title:Terrain Game
+
+Platform:PC
+
+Genre: platformer, explore
+
+Target: Beta Testers
+
+Publisher:Testomatics
+
+Description: Creates a flat plane on the horizontal axis with some pillars/holes that are built randomly and diagonally.
+
+(Sections 2-9 are not are not complete because this is no where close to an actual game)
+
+Game Play: you pilot a character model dub "ethan" from the 3rd person character controller that can easliy imported in Unity.
+You can jump around and see which area you can get based. 
+
+PLEASE NOTE: when you fall off the platform or go into the hole there is no way of saving you. just quit out of the game.
+
+Art: Terrain texture imported from https://forum.unity.com/threads/terrain-textures-looking-awful-in-one-project.166909/
+
+Procedurally Generated Content: The environment is procedurally generated from a script in the scripts
+folder called Grided and the folder is just called Scripts.
+
+Wish List. To make the entire thing super wavy. If you look at the code there is a waving method that is meant to do just that but
+i ran into erros that made the plane not be created.  
