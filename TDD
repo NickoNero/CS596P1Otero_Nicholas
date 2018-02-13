@@ -1,16 +1,31 @@
 ##Test Driven Document
+-by Nicholas Otero for CS596P1Otero_Nicholas
 
-(note its not very clear as to what a TDD is since we rarely ever went over it, but this is 
-my best attempt)
+The only script i have for this project (other than those built and came witrh ethan for the 3d controller) is that of 
 
-The complexity of this code is On^2 (big O n squared) complexity because of the generate 
-method and the process it creates the plane. 
+Grided.cs
 
-At least for the method. Once the call is done thats it and the script does not affect anything else. just Makes the plane.
+//i'll in turn go in depth and talk about the complexity for the methods because they have several conditionals and for loops
 
-Other than the methods for Ethan which i do not want to dive into and since i did not make the wavy function operate
-(which also has On^2 complexity) there are no consistent scripts being used here that are not from the unity engine itself
-(such as rigidbodys and colliders).
+-Private void Generate()
+	Conditionals:
+		-if statements:1
+		-for statements:4(2 groups are nested)
+	Cyclomatic Complexity:
+		-6
 
-//I also want to note that my computer was pretty much on 20% power when i made this and was draining fast and i would not be able to charge it till monday.
- 
+-Void MeshWave() //note this method is not used in Grided.cs as it was attempted to produce waves out of the plane
+	Conditionals:
+		-for statements:2(nested)
+	Cyclomatic Complexity:
+		-3
+
+-Private void OnDrawGizmos()
+	Conditionals:
+		-if statements:1
+		-for statements:1
+	Cyclomatic Complexity:
+		-3
+
+If i used Meshwave method the total cost complexity would be 3On^2 (3 big O of n squared).
+Remember i am not including the complexities for the 3d player controller. 
